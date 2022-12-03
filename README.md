@@ -1,44 +1,35 @@
 
 
-  # Eric's Awesome App
+  # README Generator
  
-  ![License](https://img.shields.io/badge/License-Apache-blue)
-  
+
   ## Description
-  This app will make you 82% more cool in 42 minutes or less.
+  This applicaiton allows a user to utilize node.js to generate a dymanic README by answering a series of predetermined questions.
 
 
   ## Table of Contents
     
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
   - [Credit](#credit)
-  - [Questions](#questions)
-  - [Tests](#tests)
+  - [How to Contribute](#contribute)
 
 
   ## Installation
-  Just type stuff into the thingy
+  The user must have node.js installed. <br/>
+  In addition, the user must install Inquirer.js and can be accessed by typing "node install inquirer" into the terminal.
 
 
   ## Usage
-  To be cool.
+  Generating README Questions: <br/>
+  <img src="https://github.com/EricKim86/video-game-quiz/blob/main/assets/images/quiz1.png?raw=true" width="600"/><br/>
+
+  Generated README:<br/>
+  <img src="https://github.com/EricKim86/video-game-quiz/blob/main/assets/images/quiz1.png?raw=true" width="600"/><br/>
 
 
-  ## License
-  Apache
- 
-
-  ## Credit
-  I did.
-
-
-  ## Questions / How to Contribute
+  ## How to Contribute
   Please visit me at: https://github.com/EricKim86. 
 
   If you have any questions, feel free to reach me at: erickimek86@gmail.com.
 
-
-  ## Tests
-  I'm not sure.

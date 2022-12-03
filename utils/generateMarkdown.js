@@ -1,27 +1,56 @@
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-
+function renderLicenseBadge(license) {
+  switch (license) {
+    case 'MIT':
+      return "![License](https://img.shields.io/badge/License-MIT-blue)"
+    case 'GPLv3':
+      return "![License](https://img.shields.io/badge/License-GPLv3-blue)"
+    case 'Apache':
+      return "![License](https://img.shields.io/badge/License-Apache-blue)"
+    case 'Apache':
+      return "![License](https://img.shields.io/badge/License-Mozilla-blue[hyperlink]:"
+    case 'None':
+      return "";
+  }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseLink(license) {
+  switch (license) {
+    case 'MIT':
+      return "https://choosealicense.com/licenses/mit/"
+    case 'GPLv3':
+      return "https://choosealicense.com/licenses/gpl-3.0/"
+    case 'Apache':
+      return "https://www.apache.org/licenses/"
+    case 'Apache':
+      return "!https://www.mozilla.org/en-US/MPL/"
+    case 'None':
+      return "";
+  }
+}
 
-// TODO: Create a function to generate markdown for README
-
-// ${renderLicenseBadge(data.license)} ${renderLicenseLink(data.license)}
-// ${renderLicenseBadge(data.license)}
-
+function renderLicenseSection(license) {
+switch (license) {
+  case 'MIT':
+    return "This application uses the MIT license.";
+  case 'GPLv3':
+    return "This application uses the GPLv2 license.";
+  case 'Apache':
+    return "This application uses the Apache license.";
+  case 'Apache':
+    return "This application uses the Mozilla license.";
+  case 'None':
+    return "This application does not use a license."; 
+  }
+} 
 
 function generateMarkdown(data) {
   return `
 
   # ${data.title}
  
-  ![License](https://img.shields.io/badge/License-${data.license}-blue)
-  
+  ${renderLicenseBadge(data.license)}
+
+
   ## Description
   ${data.description}
 
@@ -45,7 +74,8 @@ function generateMarkdown(data) {
 
 
   ## License
-  ${data.license}
+  ${renderLicenseSection(data.license)}
+  ${renderLicenseLink(data.license)}
  
 
   ## Credit

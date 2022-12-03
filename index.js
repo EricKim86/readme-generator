@@ -21,19 +21,20 @@ inquirer
         },
         {
             type: 'input',
-            message: 'Write a short description of your project?',
+            message: 'Write a short description of your application?',
             name: 'description',
         },
         {
             type: 'list',
             message: 'What kind of license should your project have?',
             name: 'license',
-            choices: ['MIT', 'GPLv2', 'Apache', 'Other']
+            choices: ['MIT', 'GPLv3', 'Apache', 'Mozilla', 'None']
         },
         {
             type: 'input',
             message: 'What command should be run to install dependencies?',
             name: 'install',
+            default: 'npm i'
         },
         {
             type: 'input',
@@ -42,13 +43,14 @@ inquirer
         },
         {
             type: 'input',
-            message: 'Who contributed to the application?',
+            message: 'Who contributed to the development of this application?',
             name: 'contributor',
         },
         {
             type: 'input',
             message: 'How can a user test the application?',
             name: 'test',
+            default: 'npm test'
         },
     ])
     .then((response) => {
