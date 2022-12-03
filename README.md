@@ -22,10 +22,10 @@
 
   ## Usage
   Generating README Questions: <br/>
-  <img src="https://github.com/EricKim86/video-game-quiz/blob/main/assets/images/quiz1.png?raw=true" width="600"/><br/>
+  <img src="https://github.com/EricKim86/readme-generator/blob/main/assets/images/node-questions.png?raw=true" width="600"/><br/>
 
   Generated README:<br/>
-  <img src="https://github.com/EricKim86/video-game-quiz/blob/main/assets/images/quiz1.png?raw=true" width="600"/><br/>
+  <img src="https://github.com/EricKim86/readme-generator/blob/main/assets/images/readme-image.png?raw=true" width="600"/><br/>
 
 
   ## How to Contribute
