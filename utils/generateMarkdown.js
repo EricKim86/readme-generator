@@ -82,7 +82,7 @@ function generateMarkdown(data) {
   ${data.contributor}
 
 
-  ## Questions / How to Contribute
+  ## Questions
   Please visit me at: https://github.com/${data.username}. 
 
   If you have any questions, feel free to reach me at: ${data.email}.
