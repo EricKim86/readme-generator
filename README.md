@@ -27,6 +27,8 @@
   Generated README:<br/>
   <img src="https://github.com/EricKim86/readme-generator/blob/main/assets/images/readme-image.png?raw=true" width="600"/><br/>
 
+  Video Walkthrough:<br/>
+  https://youtu.be/ctaAk5XnxjE 
 
   ## How to Contribute
   Please visit me at: https://github.com/EricKim86. 
