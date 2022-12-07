@@ -11,7 +11,6 @@
     
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credit](#credit)
   - [How to Contribute](#contribute)
 
 
@@ -21,6 +20,7 @@
 
 
   ## Usage
+  GitHub Repository: https://github.com/EricKim86/readme-generator <br/>
   Generating README Questions: <br/>
   <img src="https://github.com/EricKim86/readme-generator/blob/main/assets/images/node-questions.png?raw=true" width="600"/><br/>
 
